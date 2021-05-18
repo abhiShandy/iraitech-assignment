@@ -1,0 +1,39 @@
+#top-row .left {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#top-row .right {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#bottom-row .left {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#bottom-row .right {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.left,
+.right {
+	width: 25%;
+	height: 25%;
+	background-color: black;
+	color: white;
+}
+
+#middle-row {
+	position: absolute;
+	top: 50%;
+	width: 25%;
+	left: 37.5%;
+	height: 10%;
+}
